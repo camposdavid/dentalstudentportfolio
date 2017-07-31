@@ -1,0 +1,152 @@
+// General styles
+
+.full-height,
+.full-height body,
+.full-height header,
+.full-height header .view {
+	height: 100%;
+}
+
+// Header
+.intro-page .navbar:not(.top-nav-collapse) {
+	background:transparent !important;
+	box-shadow:none;
+}
+
+// add shadow to .top-nav-collapse
+.top-nav-collapse {
+	@extend .z-depth-1;
+}
+
+@media (max-width: 768px) { 
+    .grey-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$grey-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) { 
+    .navy-blue-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$navy-blue-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .white-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$white-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .black-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$black-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .pink-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$pink-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .deep-purple-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$deep-purple-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .cyan-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$cyan-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .indigo-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$indigo-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .light-blue-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$light-blue-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .mdb-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$mdb-skin-navbar !important; 
+    }
+}
+
+/*Intro*/
+
+header {
+	.view {
+		background-position:center;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		@include background-size(cover); 
+	} 
+}
+
+.intro {
+	.intro-heading {
+		font-size:4.25rem;
+		font-weight:600;
+	}
+
+	.intro-subtext {
+		font-size:1.5rem;
+	}
+	li {
+		list-style-type:none;
+	}
+	.btn .fa {
+		margin-top: 0;
+	}
+
+	.btn-floating.btn-large i {
+	    line-height: 56px;
+	}
+}
+
+// timetable
+
+.timetable {
+	th, td {
+		vertical-align: middle;
+	}
+	.btn {
+		margin:0;
+	}
+}
+
+// skills table
+
+ul.skills-table {
+	li.list-group-item {
+        justify-content: center;
+        align-items: center;
+		border-width:1px 0;
+		border-color:rgba(0,0,0,.12);
+		&:first-child {
+			border-top-width:0;
+		}
+        
+	}
+}
+
+.inline-list {
+	li {
+		display:inline-block;
+	}
+}
+
+.title-big {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.font-up {
+    text-transform: uppercase;
+}

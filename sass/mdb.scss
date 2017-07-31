@@ -1,0 +1,84 @@
+/*!
+ * Material Design for Bootstrap 4
+ * Portfolio Templates Pack
+ * Version: Porfolio Templates Pack 4.1.1
+ *
+ * Compatible with MDB Pro 4.3.1
+ *
+ *
+ * Copyright: Material Design for Bootstrap
+ * http://mdbootstrap.com/
+ *
+ * Read the license: http://mdbootstrap.com/license/
+ *
+ *
+ * Documentation: http://mdbootstrap.com/
+ *
+ * Getting started: http://mdbootstrap.com/getting-started/
+ *
+ * Tutorials: http://mdbootstrap.com/bootstrap-tutorial/
+ *
+ * Templates: http://mdbootstrap.com/templates/
+ *
+ * Support: http://mdbootstrap.com/forums/forum/support/
+ *
+ * Contact: office@mdbootstrap.com 
+ *
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ *
+ */
+
+@charset "UTF-8";
+
+// MDB Framework //
+
+// Mixins
+@import "mdb/free/data/prefixer";
+@import "mdb/free/data/mixins";
+
+// Variables
+@import "mdb/free/data/colors";
+@import "mdb/free/data/variables-b4";
+@import "mdb/free/data/variables";
+
+//Global
+@import "mdb/free/global";
+
+// MDB Free  
+@import "mdb/free/roboto";
+@import "mdb/free/typography";
+@import "mdb/free/animations";
+@import "mdb/free/waves";
+@import "mdb/free/helpers";
+@import "mdb/free/buttons";
+@import "mdb/free/forms-basic";
+@import "mdb/free/cards-basic";
+@import "mdb/free/navbars";
+@import "mdb/free/hover-effects";
+@import "mdb/free/footer";
+@import "mdb/free/carousels-basic";
+
+// MDB Premium
+@import "mdb/pro/forms-pro";
+@import "mdb/pro/msc";
+@import "mdb/pro/buttons-pro";
+@import "mdb/pro/social-buttons";
+@import "mdb/pro/cards-pro";
+@import "mdb/pro/dropdowns-pro";
+@import "mdb/pro/light-box";
+@import "mdb/pro/navbars-pro";
+@import "mdb/pro/modals-pro";
+@import "mdb/pro/scrollspy";
+@import "mdb/pro/animations-pro";
+@import "mdb/pro/skins";
+@import "mdb/pro/parallax";
+
+// SECTIONS
+@import "mdb/pro/sections/pricing";
+@import "mdb/pro/sections/testimonials";
+@import "mdb/pro/sections/features";
+@import "mdb/pro/sections/team";
+@import "mdb/pro/sections/form-sets";
+@import "mdb/pro/sections/templates";
+
+@import  "mdb/portfolio/general";
